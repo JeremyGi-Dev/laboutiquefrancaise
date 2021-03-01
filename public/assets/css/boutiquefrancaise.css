@@ -49,3 +49,8 @@ body{
 .product-container{
     margin-bottom: 200px;
 }
+
+.cart-icon{
+    height : 25px;
+    margin-right: 15px;
+}

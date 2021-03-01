@@ -7,8 +7,10 @@
 
     Bienvenue {{ app.user.firstname }} dans votre compte
     <hr>
-    <a href="{{ path('account_password') }}">Modifier mon mot de passe</a>
-    - Ajouter mes adresses
-    - Mes commandes
+    <ul>
+        <li><a href="{{ path('account_password') }}">Modifier mon mot de passe</a></li>
+        <li><a href="{{ path('account_address') }}">Gérer mes adresses</a></li>
+        <li>- Mes commandes</li>
+    </ul>
     <hr>
 {% endblock %}
